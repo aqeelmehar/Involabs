@@ -58,15 +58,16 @@ body {
   text-align: center;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
+
+.aa:hover{
+  border-bottom: 2px solid white;
+  color: white !important;
 }
+
 
 a:hover,
 a:focus {
-  color: initial;
+  color: white !important;
 }
 
 .btn,
@@ -138,6 +139,9 @@ a:focus {
 }
 .custom_nav-container .navbar-nav {
   margin-left: auto;
+}
+.card-body h2{
+  font-weight: 700 !important;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
@@ -313,6 +317,31 @@ a:focus {
   height: 20px;
   background-color: #FF5A00;
 }
+.service_container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service_container .col-md-4 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin-bottom: 20px; /* Add spacing between rows */
+}
+
+.service_container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 320px; /* Set a minimum height */
+   
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add box shadow */
+  border-radius: 10px; /* Optional: add border radius */
+  padding: 20px; /* Optional: add padding */
+  text-align: center; /* Center align text */
+}
+
 
 .service_section {
   position: relative;
@@ -404,7 +433,15 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #FF5A00;
 }
-
+.web{
+  margin-bottom: 4rem !important;
+}
+.conteent{
+  margin-bottom: 3.5rem !important;
+}
+.dashboard{
+  margin-bottom: 2.3rem !important;
+}
 .why_section .box {
   margin-top: 45px;
   display: flex;
@@ -479,6 +516,7 @@ a:focus {
   justify-content: center;
   align-items: center;
 }
+
 .team_section .team_container .box .img-box img {
   width: 120px;
   border-radius: 100%;
@@ -505,6 +543,28 @@ a:focus {
 .team_section .team_container .box .social_box a:hover {
   color:  #FF5A00;
 }
+.carousel .col-md-2 {
+  padding: 0 15px;
+}
+
+.carousel img {
+  max-height: 80px;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: #FF5A00;
+
+  
+  padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+}
+
 
 /*team section end*/
 /* client section start */
